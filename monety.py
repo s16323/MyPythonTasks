@@ -28,8 +28,8 @@ def wydaj_z_kwoty(kwota):
 
 
 def wydaj_z_kwoty_w_nominalach(kwota, nominaly):
-    print('kwota do rozmienienia: {}'.format(kwota))
-    print('dostepne nominaly: {}'.format(nominaly))
+    print('kwota do rozmienienia: {}\n'.format(kwota))
+    print('dostepne nominaly: {}\n'.format(nominaly))
     for nominal in nominaly:
         ilosc_do_wydania = 0
         while kwota >= nominal:
@@ -42,4 +42,4 @@ def wydaj_z_kwoty_w_nominalach(kwota, nominaly):
 
 
 # wydaj_z_kwoty(kwota1)
-wydaj_z_kwoty_w_nominalach(kwota1, [200, 100 , 1])
+wydaj_z_kwoty_w_nominalach(kwota1, [200, 100, 1])
